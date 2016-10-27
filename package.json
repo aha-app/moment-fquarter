@@ -10,7 +10,6 @@
     }
   ],
   "scripts": {
-    "postinstall": "./node_modules/.bin/bower install",
     "test": "./node_modules/.bin/grunt test"
   },
   "main": "moment-fquarter.js",
