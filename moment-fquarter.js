@@ -8,7 +8,7 @@
 
 	function onload(moment) {
 		moment.fn.fquarter = function (startMonth) {
-			var initial = this.lang()._quarter || "Q";
+			var initial = this.localeData()._quarter || "Q";
 			var result = {}, adjustedDate, nextYear = null;
 			startMonth = startMonth || 4; // default is April
 
