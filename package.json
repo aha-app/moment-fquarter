@@ -1,5 +1,5 @@
 {
-  "name": "moment-fquarter",
+  "name": "@aha-app/moment-fquarter",
   "version": "0.1.2",
   "description": "Fiscal quarterly formatting for momentjs",
   "author": "Rob Allen",
@@ -8,6 +8,9 @@
       "name": "Yago Ferrer",
       "email": "yago.ferrer@gmail.com"
     }
+  ],
+  "files": [
+    "moment-fquarter.js"
   ],
   "scripts": {
     "test": "./node_modules/.bin/grunt test"
